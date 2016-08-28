@@ -101,7 +101,7 @@ section:nth-child(2n+1){
 }
 
 section#cover{
-	background: url(images/beer-dark-bottle-light_2.jpg) center bottom no-repeat;
+	background: url(images/beer-dark-bottle-light_2.jpg) center top no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
 	margin-bottom: -6em;
