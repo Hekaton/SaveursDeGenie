@@ -1,6 +1,7 @@
 $(function(){
 	// Fade the top bar to black when scrolling beyond 30% of the first screen by adding .dark
 	$(window).on('scroll', function(e){
+		var top = window.scrollY;
 
 		var isDark = top > $('#cover').first().height() * 0.3;
 		$('nav').toggleClass('dark', isDark);
