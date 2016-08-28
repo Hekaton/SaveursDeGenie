@@ -21,7 +21,7 @@ body{
 h1{
 	color: white;
 	font-family: Lobster;
-	font-size: 54pt;
+	font-size: 48pt;
 	text-shadow: #0D040A 0px 1px 2px;
 	margin: 0.25em 0;
 }
@@ -36,6 +36,7 @@ h1 b{
 .container {
 	margin: auto;
 	max-width: 960px;
+	padding: 0 30px;
 	overflow: hidden;
 }
 
@@ -60,6 +61,10 @@ nav h1{
 	font-size: 2rem;
 	float: left;
 	margin: 0;
+}
+
+nav a{
+	text-decoration: none;
 }
 
 nav .container div {
@@ -93,10 +98,10 @@ section{
 	min-height: 100%;
 }
 
-section:nth-child(2n){
+section:nth-child(2n+1){
 	background: #F39F22;
 }
-section:nth-child(2n+1){
+section:nth-child(2n){
 	background: #D85402;
 }
 
@@ -163,4 +168,29 @@ section#cover .underline{
 footer{
 	background: #0D040A;
 	min-height: 30%;
+}
+
+@media (max-width: 749px){
+	nav h1{
+		float: none; display: block; text-align: center;
+	}
+
+	nav .container div{
+		float: none; text-align: center;
+	}
+}
+
+@media (max-height: 620px){
+	section{
+		padding: 2em 0;
+	}
+
+	nav h1{
+		overflow: hidden;
+	}
+
+	nav.dark h1{
+		height: 0;
+
+	}
 }
