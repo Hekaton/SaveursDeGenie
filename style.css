@@ -138,8 +138,6 @@ section#cover .underline{
 .divider{
 	min-height: 6em;
 	background: rgba(250, 250, 250, 0.85);
-	/*background: url(http://thumb7.shutterstock.com/display_pic_with_logo/2785297/382739011/stock-photo-macro-shot-of-beer-and-beer-foam-in-glass-ideal-for-use-as-a-background-or-backdrop-in-your-382739011.jpg) center top repeat-x;
-	*/
 }
 
 .divider.by-three .container > div{
