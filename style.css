@@ -188,11 +188,13 @@ footer{
 	min-height: 30%;
 	padding-top: 1em;
 	text-align: center;
+	line-height: 66px;
 }
 
 footer img{
 	max-height: 100px;
 	opacity: 0.85;
+	vertical-align: top;
 }
 
 @media (max-width: 749px){
