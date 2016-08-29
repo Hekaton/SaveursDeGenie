@@ -186,6 +186,13 @@ section#cover .underline:after{
 footer{
 	background: #0D040A;
 	min-height: 30%;
+	padding-top: 1em;
+	text-align: center;
+}
+
+footer img{
+	max-height: 100px;
+	opacity: 0.85;
 }
 
 @media (max-width: 749px){
