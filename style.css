@@ -92,6 +92,12 @@ nav .container div a:hover{
 	color: #fff;
 }
 
+nav .container div a.active{
+	background: rgba(150, 150, 150, 0.35);
+	color: white;
+	border-color: white;
+}
+
 section{
 	position: relative;
 	padding: 10em 0;
@@ -155,7 +161,7 @@ section#cover .underline:after{
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	padding: 0.35em 0;
+	padding: 0.85em 0;
 	background: rgba(250, 250, 250, 0.75);
 }
 
@@ -165,7 +171,7 @@ section#cover .underline:after{
 	clear: none;
 	font-size: 18pt;
 	font-family: Roboto Slab;
-	padding: 1em 0;
+	padding: 0.5em 0;
 	text-align: center;
 	height: 100%;
 	color: #333;
