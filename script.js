@@ -44,10 +44,9 @@ $(function(){
 		e.preventDefault();
 		var section = $(href);
 		var offsetTop = section.offset()?section.offset().top:0;
+		
 		$('body').animate({
 			scrollTop:offsetTop
 		}, 300);
-		//window.scrollTo(0, section.offset().top);
-		//console.log(section.offset().top);
 	});
 });
