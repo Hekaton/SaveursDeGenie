@@ -126,6 +126,21 @@ section#cover article{
 	text-shadow: #0D040A 0px 1px 2px, black 0 1px 0.1em;
 }
 
+section#cover article img{
+	display: block;
+	margin: auto;
+	max-width: 400px;
+}
+
+section#cover a{
+	text-decoration: none;
+	color: inherit;
+}
+
+section#cover a:hover{
+	color: #338;
+}
+
 section#cover h1{
 	text-shadow: #0D040A 0px 1px 2px, black 0 1px 0.1em;
 }
