@@ -125,6 +125,7 @@ section#cover{
 	background: url(images/beer-dark-bottle-light_2.jpg) center top no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+	padding-bottom: 85px;
 }
 
 section#cover article{
@@ -214,8 +215,35 @@ section h1 {
 	border-style: dotted;
 }
 
+table{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    border: none;
+    border-collapse: inherit;
+    border-spacing: 0;
+    border-color: inherit;
+    vertical-align: inherit;
+    text-align: left;
+    font-weight: inherit;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+}
+
+table td{
+	padding: 0.35em 1em;
+	/*border-bottom: 1px dashed rgba(0, 0, 0, 0.35);*/
+}
+
+table tr:nth-child(2n){
+	background: rgba(0, 0, 0, 0.075);
+}
+
 section img.panel{
 	max-height: 440px;
+	max-width: 50%;
 	border-radius: 6px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0 8px 16px;
 	border: 1px solid transparent;
@@ -258,6 +286,16 @@ footer img{
 
 	nav .container div{
 		float: none; text-align: center;
+	}
+
+	section img.panel,
+	section img.panel-right,
+	section img.panel-left{
+		float: none;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 100%;
 	}
 }
 
