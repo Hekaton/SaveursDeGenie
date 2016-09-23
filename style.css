@@ -18,11 +18,21 @@ body{
 	overflow: visible;
 }
 
+a{
+	color: #680402;
+	text-shadow: rgba(0, 0, 0, 0.35) 0 1px 2px;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
 h1{
 	color: white;
 	font-family: Lobster;
 	font-size: 48pt;
-	text-shadow: #0D040A 0px 1px 2px;
+	text-shadow: #0D040A 0px 1px 1px;
 	margin: 0.25em 0;
 }
 
@@ -100,7 +110,7 @@ nav .container div a.active{
 
 section{
 	position: relative;
-	padding: 10em 0;
+	padding: 6em 0;
 	min-height: 100%;
 }
 
@@ -172,6 +182,10 @@ section#cover .underline:after{
 	box-shadow: rgba(0, 0, 0, 0.35) 0 0 3px 1px, inset rgba(0, 0, 0, 0.35) 0 0 1px 1px;
 }
 
+section h1 {
+	margin-bottom: 3rem;
+}
+
 .divider{
 	position: absolute;
 	bottom: 0;
@@ -200,6 +214,24 @@ section#cover .underline:after{
 	border-style: dotted;
 }
 
+section img.panel{
+	max-height: 440px;
+	border-radius: 6px;
+	box-shadow: rgba(0, 0, 0, 0.35) 0 8px 16px;
+	border: 1px solid transparent;
+	border-color: #bb6 #aa4 #333 #333;
+}
+
+section img.panel-right{
+	margin: 0 0 20px 3ex;
+	float: right;
+}
+
+section img.panel-left{
+	margin: 0 3ex 20px 0;
+	float: left;
+}
+
 footer{
 	background: #0D040A;
 	min-height: 30%;
@@ -212,6 +244,11 @@ footer img{
 	max-height: 100px;
 	opacity: 0.85;
 	vertical-align: top;
+}
+
+#copy{
+	color: #444;
+	font-size: 8pt;
 }
 
 @media (max-width: 749px){
